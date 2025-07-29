@@ -14,7 +14,6 @@ const CreateTask = () => {
   const submitHandler = (e) => {
     e.preventDefault();
 
-    console.log(data);
 
     const newTask = {
       active: false,

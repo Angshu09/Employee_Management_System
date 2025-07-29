@@ -76,7 +76,7 @@ const AllAssignedTasks = () => {
           </p>
 
           {renderTasks("🟢 Active Tasks -", (t) => t.active)}
-          {renderTasks("🔵 New Tasks -", (t) => t.active && t.newTask)}
+          {renderTasks("🔵 New Tasks -", (t) => t.newTask)}
           {renderTasks("✅ Completed Tasks -", (t) => t.completed)}
           {renderTasks("💔 Failed Tasks -", (t) => t.failed)}
         </Modal>
